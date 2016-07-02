@@ -1,7 +1,7 @@
 
 2016-07-01 18:52:49
 [ERROR]-[Thread: qtp1285044316-29]-[io.jpress.install.InstallController.step2()]: InstallController step2 is erro
-java.sql.BatchUpdateException: Unknown character set: 'utf8mb4'
+java.sql.BatchUpdateException: Unknown character set: 'utf8'
 	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:1184)
 	at com.alibaba.druid.filter.FilterChainImpl.statement_executeBatch(FilterChainImpl.java:2596)
 	at com.alibaba.druid.filter.FilterAdapter.statement_executeBatch(FilterAdapter.java:2474)
@@ -57,7 +57,7 @@ java.sql.BatchUpdateException: Unknown character set: 'utf8mb4'
 
 2016-07-01 18:53:45
 [ERROR]-[Thread: qtp1285044316-33]-[io.jpress.install.InstallController.step2()]: InstallController step2 is erro
-java.sql.BatchUpdateException: Unknown character set: 'utf8mb4'
+java.sql.BatchUpdateException: Unknown character set: 'utf8'
 	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:1184)
 	at com.alibaba.druid.filter.FilterChainImpl.statement_executeBatch(FilterChainImpl.java:2596)
 	at com.alibaba.druid.filter.FilterAdapter.statement_executeBatch(FilterAdapter.java:2474)
@@ -113,7 +113,7 @@ java.sql.BatchUpdateException: Unknown character set: 'utf8mb4'
 
 2016-07-01 18:56:13
 [ERROR]-[Thread: qtp1285044316-31]-[io.jpress.install.InstallController.step2()]: InstallController step2 is erro
-java.sql.BatchUpdateException: Unknown character set: 'utf8mb4'
+java.sql.BatchUpdateException: Unknown character set: 'utf8'
 	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:1184)
 	at com.alibaba.druid.filter.FilterChainImpl.statement_executeBatch(FilterChainImpl.java:2596)
 	at com.alibaba.druid.filter.FilterAdapter.statement_executeBatch(FilterAdapter.java:2474)
@@ -169,7 +169,7 @@ java.sql.BatchUpdateException: Unknown character set: 'utf8mb4'
 
 2016-07-01 18:58:32
 [ERROR]-[Thread: qtp1285044316-33]-[io.jpress.install.InstallController.step2()]: InstallController step2 is erro
-java.sql.BatchUpdateException: Unknown character set: 'utf8mb4'
+java.sql.BatchUpdateException: Unknown character set: 'utf8'
 	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:1184)
 	at com.alibaba.druid.filter.FilterChainImpl.statement_executeBatch(FilterChainImpl.java:2596)
 	at com.alibaba.druid.filter.FilterAdapter.statement_executeBatch(FilterAdapter.java:2474)

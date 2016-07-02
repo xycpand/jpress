@@ -98,7 +98,7 @@ public class MysqlDialect extends DbDialect {
 
 		String SqlFilePath = PathKit.getWebRootPath() + "/WEB-INF/install/sqls/mysql.sql";
 		String sql_text = FileUtils.readString(new File(SqlFilePath)).replace("{table_prefix}", tablePrefix)
-				.replace("{charset}", "utf8 -- UTF-8 Unicode");
+				.replace("{charset}", "utf8");
 
 		return sql_text;
 	}

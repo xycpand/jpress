@@ -26,7 +26,7 @@ CREATE TABLE `{table_prefix}attachment` (
   KEY `created` (`created`),
   KEY `suffix` (`suffix`),
   KEY `mime_type` (`mime_type`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 -- UTF-8 Unicode;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
@@ -66,7 +66,7 @@ CREATE TABLE `{table_prefix}comment` (
   KEY `parent_id` (`parent_id`),
   KEY `content_module` (`content_module`),
   KEY `comment_count` (`comment_count`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 -- UTF-8 Unicode;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
@@ -111,7 +111,7 @@ CREATE TABLE `{table_prefix}content` (
   KEY `vote_down` (`vote_down`),
   KEY `vote_up` (`vote_up`),
   KEY `view_count` (`view_count`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 -- UTF-8 Unicode;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
@@ -127,7 +127,7 @@ CREATE TABLE `{table_prefix}mapping` (
   PRIMARY KEY (`id`),
   KEY `taxonomy_id` (`taxonomy_id`),
   KEY `content_id` (`content_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 -- UTF-8 Unicode;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
@@ -143,7 +143,7 @@ CREATE TABLE `{table_prefix}metadata` (
   `object_type` varchar(32) DEFAULT NULL,
   `object_id` bigint(20) unsigned DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 -- UTF-8 Unicode;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
@@ -157,7 +157,7 @@ CREATE TABLE `{table_prefix}option` (
   `option_key` varchar(128) DEFAULT NULL,
   `option_value` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 -- UTF-8 Unicode;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
@@ -188,7 +188,7 @@ CREATE TABLE `{table_prefix}taxonomy` (
   KEY `object_id` (`object_id`),
   KEY `content_module` (`content_module`),
   KEY `created` (`created`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 -- UTF-8 Unicode;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
@@ -228,4 +228,4 @@ CREATE TABLE `{table_prefix}user` (
   KEY `created` (`created`),
   KEY `content_count` (`content_count`),
   KEY `comment_count` (`comment_count`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 -- UTF-8 Unicode;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
